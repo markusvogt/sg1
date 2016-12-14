@@ -9,15 +9,20 @@
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}{{ site.sg_favicon }}">
     <link rel="stylesheet" href="{{ site.baseurl }}{{ site.sg_styles }}" media="screen">
 </head>
-<body id="sg">
-<div class="sg-pusher">
-    {% include sidebar.html %}
-    <div class="sg-main">
-        <div class="sg_container">
+<body>
+    <div class="sg-wrapper">
+        <header class="sg-header">
+            WELT <span class="sg-header__title">Living Styleguide</span>
+        </header>
+        <aside>
+            {% include sidebar.html %}
+        </aside>
+        <div class="sg-content">
             {{ content }}
         </div>
     </div>
-</div>
-{% include footer.html %}
+    <footer class="sg-footer">
+        {% include footer.html %}
+    </footer>
 </body>
 </html>
