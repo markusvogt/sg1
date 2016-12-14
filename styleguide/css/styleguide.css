@@ -1,5 +1,13 @@
 /* Resets */
 
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
 body {
     margin: 0;
 }
@@ -7,10 +15,10 @@ body {
 /* SG Header */
 
 .sg-header {
-    height: 60px;
+    height: 70px;
     padding: 20px 15px;
     line-height: 60px;
-    font-size: 32px;
+    font-size: 30px;
     color: #fff;
     background-color: #003a5a;
     font-family: sans-serif;
