@@ -1,0 +1,7 @@
+# Styleguide settings
+sg_title: Welt Living Styleguide
+sg_version: 1.0
+sg_description: This is the Living Styleguide welt.de.
+sg_language: en
+sg_styles: /styleguide/css/styleguide.css
+sg_favicon: /styleguide/static/favicon.ico

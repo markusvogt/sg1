@@ -8,6 +8,6 @@ This styleguide can be freely customized ...
 
 ___
 
-#### License
+## License
 
 **This tool was published in the public domain**
