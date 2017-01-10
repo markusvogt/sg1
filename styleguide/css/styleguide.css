@@ -12,6 +12,11 @@ body {
     margin: 0;
 }
 
+.sg-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* SG Header */
 
 .sg-header {
@@ -22,4 +27,14 @@ body {
     color: #fff;
     background-color: #003a5a;
     font-family: sans-serif;
+    flex-basis: 100%;
+}
+
+.sg-sidebar {
+    flex-basis: 20%;
+}
+
+.sg-content {
+    flex-basis: 80%;
+    padding: 15px;
 }
