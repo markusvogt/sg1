@@ -1,1 +1,13 @@
 <h4>Sidebar</h4>
+
+{% assign branding = site.docs | where: 'type', 'branding' | sort: 'name' %}
+<div class="toc-group">
+    <h6 class="toc-group_title">Branding</h6>
+    <ul>
+        {% for doc in branding %}
+        <li>
+            <a href="{{ site.baseurl }}{{ doc.url }}"{% if doc.url == page.url %} class="active"{% endif %}>{{ doc.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
