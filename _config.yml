@@ -7,12 +7,19 @@ sg_language: en
 sg_styles: /styleguide/css/styleguide.css
 sg_favicon: /styleguide/static/favicon.ico
 
+destination: _site
+
+# Collections
+collections:
+  docs:
+    output: true
+
 defaults:
   -
     scope:
       path: "_docs"
     values:
-      layout: doc
+      layout: default
       type: doc
       maturity: "Proposed"
       scss: "Not Assigned"
