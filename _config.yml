@@ -6,3 +6,19 @@ sg_description: This is the Living Styleguide welt.de.
 sg_language: en
 sg_styles: /styleguide/css/styleguide.css
 sg_favicon: /styleguide/static/favicon.ico
+
+defaults:
+  -
+    scope:
+      path: "_docs"
+    values:
+      layout: doc
+      type: doc
+      maturity: "Proposed"
+      scss: "Not Assigned"
+  -
+    scope:
+      path: "_docs/branding"
+    values:
+      layout: index
+      type: "branding"
